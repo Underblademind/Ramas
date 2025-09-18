@@ -52,6 +52,17 @@ public class Saludo extends JFrame {
 		});
 		btnNewButton.setBounds(159, 69, 157, 66);
 		contentPane.add(btnNewButton);
+		
+		JButton btnNewButton_1 = new JButton("Saludos desde mi rama");
+		btnNewButton_1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				String message = "Hola estas en tu rama";
+				JOptionPane.showMessageDialog(null, message);
+			}
+		});
+		btnNewButton_1.setFont(new Font("Yu Gothic UI Semibold", Font.PLAIN, 20));
+		btnNewButton_1.setBounds(100, 197, 297, 78);
+		contentPane.add(btnNewButton_1);
 
 	}
 }
