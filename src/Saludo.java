@@ -71,6 +71,10 @@ public class Saludo extends JFrame {
 		txtCambioEnRama.setBounds(35, 94, 102, 55);
 		contentPane.add(txtCambioEnRama);
 		txtCambioEnRama.setColumns(10);
+		
+		JButton btnNewButton_2 = new JButton("Segunda rama");
+		btnNewButton_2.setBounds(167, 157, 202, 23);
+		contentPane.add(btnNewButton_2);
 
 	}
 }
