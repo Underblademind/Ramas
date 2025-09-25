@@ -68,7 +68,7 @@ public class Saludo extends JFrame {
 		
 		txtCambioEnRama = new JTextField();
 		txtCambioEnRama.setText("Cambio en rama");
-		txtCambioEnRama.setBounds(35, 94, 86, 20);
+		txtCambioEnRama.setBounds(35, 94, 102, 55);
 		contentPane.add(txtCambioEnRama);
 		txtCambioEnRama.setColumns(10);
 
